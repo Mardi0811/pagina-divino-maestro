@@ -1,0 +1,72 @@
+/* estilo.css */
+
+/* Reiniciar algunos márgenes y estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Color de fondo */
+    color: #333; /* Color del texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    text-align: center; /* Centrar texto */
+}
+
+/* Encabezado */
+header {
+    background-color: #4A90E2; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    padding: 20px;
+    text-align: center; /* Centrar el texto */
+    border-bottom: 5px solid #003366; /* Bordes */
+}
+
+/* Título */
+.titulo {
+    font-size: 2.5em; /* Tamaño del texto */
+}
+
+/* Sección de la presentación */
+#presentacion {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes del personaje */
+.personaje img {
+    max-width: 100%; /* Para que la imagen no sobrepase el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+/* Botón */
+.booton {
+    margin-top: 20px; /* Añadir margen superior */
+}
+
+button {
+    background-color: #6200ea; /* Color del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 15px 25px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Botón en línea */
+    font-size: 1.2em; /* Tamaño de la fuente */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+button:hover {
+    background-color: #3700b3; /* Color del botón al pasar el ratón */
+}

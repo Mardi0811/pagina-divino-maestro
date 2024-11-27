@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Matemáticas</title>
+    <link rel="stylesheet" href="CSS/mate.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Juego de Matemáticas</h1>
+        <div class="question" id="question"></div>
+        <input type="number" id="answer" placeholder="Tu respuesta" />
+        <button onclick="checkAnswer()">Enviar</button>
+        <div id="result"></div>
+        <div id="score">Puntaje: 0</div>
+        <button id="next" onclick="nextQuestion()" style="display:none;">Siguiente</button>
+        <button onclick="window.location.href='../Inicio/cursos.html'">Inicio</button>
+    </div>
+    <script src="JS/mate.js"></script>
+
+    
+</body>
+</html>

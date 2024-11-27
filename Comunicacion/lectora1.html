@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprensión Lectora: El Día de la Fiesta</title>
+    <link rel="stylesheet" href="CSS/lectora1.css">
+    <link rel="stylesheet" href="CSS/vocales1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comprensión Lectora</h1>
+        <p><strong>Lee la siguiente historia:</strong></p>
+        <p id="historia">Hoy es el cumpleaños de Ana. Sus amigos vienen a su casa para celebrar. Van a jugar, a comer pastel y a cantar. Ana está muy contenta.</p>
+
+        <form id="quiz">
+            <div class="pregunta">
+                <p>1. ¿Qué se celebra hoy?</p>
+                <div>
+                    <input type="radio" name="respuesta1" value="La Navidad">
+                    <label>La Navidad</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta1" value="El cumpleaños de Ana">
+                    <label>El cumpleaños de Ana</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta1" value="El día de la madre">
+                    <label>El día de la madre</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>2. ¿Qué van a hacer los amigos en la fiesta?</p>
+                <div>
+                    <input type="radio" name="respuesta2" value="Jugar y comer pastel">
+                    <label>Jugar y comer pastel</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta2" value="Estudiar">
+                    <label>Estudiar</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta2" value="Trabajar">
+                    <label>Trabajar</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>3. ¿Quién cumple años?</p>
+                <div>
+                    <input type="radio" name="respuesta3" value="Carlos">
+                    <label>Carlos</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta3" value="Ana">
+                    <label>Ana</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta3" value="Cristina">
+                    <label>Cristina</label>
+                </div>
+            </div>
+
+            <!-- A continuación, se agregan más preguntas -->
+            <div class="pregunta">
+                <p>4. ¿Está Ana feliz?</p>
+                <div>
+                    <input type="radio" name="respuesta4" value="Sí">
+                    <label>Sí</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta4" value="No">
+                    <label>No</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>5. ¿A quiénes invita Ana?</p>
+                <div>
+                    <input type="radio" name="respuesta5" value="A sus amigos">
+                    <label>A sus amigos</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta5" value="A sus profesores">
+                    <label>A sus profesores</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>6. ¿Qué tipo de comida hay en la fiesta?</p>
+                <div>
+                    <input type="radio" name="respuesta6" value="Pizza">
+                    <label>Pizza</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta6" value="Pescado">
+                    <label>Pescado</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta6" value="Pastel">
+                    <label>Pastel</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>7. ¿Qué actividad no se menciona en la historia?</p>
+                <div>
+                    <input type="radio" name="respuesta7" value="Cantar">
+                    <label>Cantar</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta7" value="Jugar">
+                    <label>Jugar</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta7" value="Bailar">
+                    <label>Bailar</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>8. ¿Quiénes son los principales protagonistas de la fiesta?</p>
+                <div>
+                    <input type="radio" name="respuesta8" value="Ana y sus amigos">
+                    <label>Ana y sus amigos</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta8" value="Ana y sus padres">
+                    <label>Ana y sus padres</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>9. ¿Cuántas actividades se mencionan en la historia?</p>
+                <div>
+                    <input type="radio" name="respuesta9" value="Tres">
+                    <label> tres</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta9" value="Dos">
+                    <label> dos</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>10. ¿Qué sentimiento expresa Ana en la fiesta?</p>
+                <div>
+                    <input type="radio" name="respuesta10" value="Tristeza">
+                    <label>Tristeza</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta10" value="Alegría">
+                    <label>Alegría</label>
+                </div>
+            </div>
+
+            <button type="button" id="submit">Enviar</button>
+        </form>
+
+        <audio id="correcto" src="corret.mp3"></audio>
+        <audio id="incorrecto" src="incorret.mp3"></audio>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+    <button class="button" onclick="window.location.href='../Inicio/cursos.html'">Inicio</button>
+
+    <script src="JS/lectora1.js"></script>
+    
+</body>
+</html>

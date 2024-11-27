@@ -1,0 +1,66 @@
+/* CSS/lectora.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e7f5ff;
+    border: 1px solid #b3e0ff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}

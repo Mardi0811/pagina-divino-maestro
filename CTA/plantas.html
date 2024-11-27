@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/plantas.css">
+    <title>Cómo Crecen las Plantas</title>
+</head>
+<body>
+    <header>
+        <h1>Cómo Crecen las Plantas</h1>
+        <p>Descubre las diferentes partes de las plantas y cómo crecen.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Partes de una Planta</h2>
+            <div class="plant-part" id="root" onclick="mostrarInfo('root')">
+                <p><strong>Raíz</strong></p>
+                <small>Haz clic para más información</small>
+            </div>
+            <div class="plant-part" id="stem" onclick="mostrarInfo('stem')">
+                <p><strong>Tallo</strong></p>
+                <small>Haz clic para más información</small>
+            </div>
+            <div class="plant-part" id="leaf" onclick="mostrarInfo('leaf')">
+                <p><strong>Hoja</strong></p>
+                <small>Haz clic para más información</small>
+            </div>
+            <div class="plant-part" id="flower" onclick="mostrarInfo('flower')">
+                <p><strong>Flor</strong></p>
+                <small>Haz clic para más información</small>
+            </div>
+        </section>
+        <section id="info">
+            <h2>Información</h2>
+            <p id="info-text">Haz clic en una parte de la planta para ver la información aquí.</p>
+        </section>
+    </main>
+    <script src="JS/plantas.js"></script>
+</body>
+</html>

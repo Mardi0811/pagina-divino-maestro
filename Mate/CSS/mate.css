@@ -1,0 +1,93 @@
+/* mate.css */
+
+/* Reset algunos estilos por defecto */
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1976D2;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px; /* Aumentado desde 20px a 30px */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px; /* Cambiado hasta 400px desde 300px */
+    max-width: 90%; /* Limita el tamaño del contenedor al 90% del ancho de la pantalla */
+    
+}
+
+
+/* Título */
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Estilo para la pregunta */
+.question {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el input */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el resultado */
+#result {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+/* Botón Siguiente */
+#next {
+    background-color: #2196F3;
+}
+#next:hover {
+    background-color: #1976D2;
+}
+
+/* Manejar la visualización del contenedor para pantallas más pequeñas */
+@media (max-width: 320px) {
+    .container {
+        width: 80%;
+    }
+}

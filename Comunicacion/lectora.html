@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Comprensión Lectora</title>
+    <link rel="stylesheet" href="CSS/lectora.css">
+    <link rel="stylesheet" href="CSS/vocales1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comprensión Lectora</h1>
+        <p>Lee la siguiente oración:</p>
+        <p id="oracion">El gato come pescado en la casa.</p>
+
+        <form id="quiz">
+            <div class="pregunta">
+                <p>1. ¿Qué come el gato?</p>
+                <div>
+                    <input type="radio" name="respuesta1" value="Pasta">
+                    <label>Pasta</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta1" value="Pescado">
+                    <label>Pescado</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta1" value="Carne">
+                    <label>Carne</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>2. ¿Dónde come el gato?</p>
+                <div>
+                    <input type="radio" name="respuesta2" value="En el jardín">
+                    <label>En el jardín</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta2" value="En la casa">
+                    <label>En la casa</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta2" value="En la calle">
+                    <label>En la calle</label>
+                </div>
+            </div>
+
+            <div class="pregunta">
+                <p>3. ¿Qué animal es mencionado en la oración?</p>
+                <div>
+                    <input type="radio" name="respuesta3" value="Perro">
+                    <label>Perro</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta3" value="Gato">
+                    <label>Gato</label>
+                </div>
+                <div>
+                    <input type="radio" name="respuesta3" value="Pájaro">
+                    <label>Pájaro</label>
+                </div>
+            </div>
+
+            <button type="button" id="submit">Enviar</button>
+        </form>
+
+        <audio id="correcto" src="corret.mp3"></audio>
+        <audio id="incorrecto" src="incorret.mp3"></audio>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="JS/lectora.js"></script>
+    <button class="button" onclick="window.location.href='lectora1.html'">siguiente</button>
+</body>
+</html>

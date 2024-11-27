@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprender las Vocales</title>
+    <link rel="stylesheet" href="CSS/aprender.css"> <!-- Enlazando CSS externo -->
+</head>
+<body>
+
+    <h1>Aprender las Vocales</h1>
+    <div>
+        <span class="vocal" onclick="reproducirAudio('a')">A</span>
+        <span class="vocal" onclick="reproducirAudio('e')">E</span>
+        <span class="vocal" onclick="reproducirAudio('i')">I</span>
+        <span class="vocal" onclick="reproducirAudio('o')">O</span>
+        <span class="vocal" onclick="reproducirAudio('u')">U</span>
+    </div>
+
+    <div id="mensaje"></div>
+
+    <audio id="audio-a" src="SONIDO/A.mp3"></audio>
+    <audio id="audio-e" src="SONIDO/E.mp3"></audio>
+    <audio id="audio-i" src="SONIDO/I.mp3"></audio>
+    <audio id="audio-o" src="SONIDO/O.mp3"></audio>
+    <audio id="audio-u" src="SONIDO/U.mp3"></audio>
+
+    <script src="JS/aprender.js"></script> <!-- Enlazando JavaScript externo -->
+    <button class="button" onclick="window.location.href='../Inicio/cursos.html'">Inicio</button>
+</body>
+</html>
+

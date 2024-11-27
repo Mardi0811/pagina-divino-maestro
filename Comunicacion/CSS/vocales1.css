@@ -1,0 +1,85 @@
+/* CSS/vocales1.css */
+
+/* Establecer un fondo y estilo básico */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Color de fondo claro */
+    color: #333; /* Color de texto */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4a90e2; /* Color azul para el título */
+    margin-top: 20px; 
+}
+
+/* Subtítulo */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333; /* Color del subtítulo */
+    margin: 20px 0;
+}
+
+/* Estilo del párrafo */
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+input[type="text"] {
+    padding: 10px; /* Espaciado dentro del input */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 200px; /* Ancho del input */
+    text-align: center; /* Centrar el texto dentro del input */
+    margin: 0 auto; /* Centrar el input */
+    display: block; /* Mostrar en bloque para que el margin funcione */
+}
+
+/* Estilo del botón */
+.orange{
+    background-color: orangered;
+}
+button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 15px; /* Relleno del botón */
+    border: none; /* Quitar borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    margin: 10px auto; /* Margen para centrar el botón */
+    display: block; /* Mostrar en bloque para que el margin funcione */
+}
+
+/* Efecto hover en botones */
+button:hover {
+    background-color: #357ab8; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el resultado */
+#result {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #d9534f; /* Color rojo para resultados */
+}
+
+/* Diseño responsivo */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+
+    #vowelInput {
+        width: 90%;
+    }
+}

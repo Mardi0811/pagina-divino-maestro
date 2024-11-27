@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Vocales</title>
+</head>
+<link rel="stylesheet" href="CSS/vocales1.css">
+<body>
+
+    <h1>Juego de Vocales</h1>
+    <p>Adivina la vocal que falta en la siguiente palabra:</p>
+    <h2 id="wordDisplay"></h2>
+    
+    <input type="text" id="vowelInput" placeholder="Ingresa una vocal">
+    <button onclick="checkVowel()">Comprobar</button>
+    
+    <p id="result"></p>
+    <button class="orange" onclick="nextWord()">Siguiente palabra</button>
+
+    <script src="JS/vocales1.js"></script>
+    <button onclick="window.location.href='aprender.html'">siguiente</button>
+</body>
+</html>

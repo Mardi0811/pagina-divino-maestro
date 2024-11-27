@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #4a90e2;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 200px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ab8;
+}
+
+#resultado {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #e74c3c; /* Color de error */
+}
+
+.button_aprender {
+    background-color: #28a745; /* Color del botón de siguiente */
+}
+
+.button_aprender:hover {
+    background-color: #218838; /* Efecto hover */
+}

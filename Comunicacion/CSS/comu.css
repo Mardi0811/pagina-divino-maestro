@@ -1,0 +1,59 @@
+/* CSS comu.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Color de fondo */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Color del texto */
+}
+
+h1 {
+    text-align: center; /* Centrar el título */
+    color: #4CAF50; /* Color verde */
+}
+
+p {
+    text-align: center; /* Centrar los párrafos */
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+}
+
+input[type="text"] {
+    padding: 10px; /* Espaciado dentro del input */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 200px; /* Ancho del input */
+    text-align: center; /* Centrar el texto dentro del input */
+    margin: 0 auto; /* Centrar el input */
+    display: block; /* Mostrar en bloque para que el margin funcione */
+}
+
+button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 15px; /* Relleno del botón */
+    border: none; /* Quitar borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    margin: 10px auto; /* Margen para centrar el botón */
+    display: block; /* Mostrar en bloque para que el margin funcione */
+}
+
+button:hover {
+    background-color: #45a049; /* Color del botón al pasar el mouse */
+}
+
+#resultado {
+    text-align: center; /* Centrar el resultado */
+    font-weight: bold; /* Negrita para el resultado */
+    margin-top: 20px; /* Espacio encima del resultado */
+}
+
+.button_aprender {
+    background-color: #008CBA; /* Color de fondo del botón "Siguiente" */
+}
+
+.button_aprender:hover {
+    background-color: #007B9A; /* Color del botón "Siguiente" al pasar el mouse */
+}

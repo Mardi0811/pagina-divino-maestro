@@ -1,0 +1,76 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo del encabezado */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo del botón de contar */
+.button_contar {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button_contar:hover {
+    background-color: #45a049; /* Verde más oscuro */
+    transform: scale(1.05);
+}
+
+/* Estilo de la lista de números */
+#numeros {
+    list-style-type: none; /* Quita las viñetas */
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Estilo de cada número en la lista */
+#numeros li {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    color: #555;
+    margin: 5px 0;
+    transition: color 0.3s;
+}
+
+#numeros li:hover {
+    color: #333; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo del botón Siguiente */
+.button_aprender {
+    background-color: #2196F3; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button_aprender:hover {
+    background-color: #0b7dda; /* Azul más oscuro */
+    transform: scale(1.05);
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+    .button_contar, .button_aprender {
+        width: 100%; /* Botones ocupan todo el ancho */
+    }
+}

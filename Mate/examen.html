@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/examen.css">
+    <title>Examen de Matemáticas - Primer Grado</title>
+</head>
+<body>
+    <header>
+        <h1>Examen de Matemáticas - Primer Grado</h1>
+    </header>
+    <div class="container">
+        <!-- Pregunta 1 -->
+        <section id="p1">
+            <h3>1 - ¿Cuánto es 2 + 3?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1, this)"> 4
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1, this)"> 5
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1, this)"> 6
+            </label>
+            <label>
+                <input type="radio" value="4" name="p1" onclick="respuesta(1, this)"> 7
+            </label>
+        </section>
+        
+        <!-- Pregunta 2 -->
+        <section id="p2">
+            <h3>2 - ¿Cuánto es 7 - 4?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2, this)"> 2
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2, this)"> 3
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2, this)"> 4
+            </label>
+            <label>
+                <input type="radio" value="4" name="p2" onclick="respuesta(2, this)"> 5
+            </label>
+        </section>
+
+        <!-- Pregunta 3 -->
+        <section id="p3">
+            <h3>3 - ¿Cuánto es 6 + 1?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3, this)"> 6
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3, this)"> 7
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3, this)"> 8
+            </label>
+            <label>
+                <input type="radio" value="4" name="p3" onclick="respuesta(3, this)"> 9
+            </label>
+        </section>
+
+        <!-- Pregunta 4 -->
+        <section id="p4">
+            <h3>4 - ¿Cuánto es 5 - 2?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4, this)"> 2
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4, this)"> 3
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4, this)"> 4
+            </label>
+            <label>
+                <input type="radio" value="4" name="p4" onclick="respuesta(4, this)"> 5
+            </label>
+        </section>
+
+        <!-- Pregunta 5 -->
+        <section id="p5">
+            <h3>5 - ¿Cuánto es 4 + 4?</h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5, this)"> 6
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5, this)"> 7
+            </label>
+            <label>
+                <input type="radio" value="3" name="p5" onclick="respuesta(5, this)"> 8
+            </label>
+            <label>
+                <input type="radio" value="4" name="p5" onclick="respuesta(5, this)"> 9
+            </label>
+        </section>
+
+        <button onclick="corregir()">CORREGIR</button>
+        <h2><span id="resultado"></span></h2>
+        
+    </div>
+    <script src="JS/examen.js"></script>
+</body>
+</html>
